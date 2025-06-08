@@ -1,12 +1,74 @@
-# React + Vite
+# Movie Discovery Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive web application built with React and Vite that allows users to discover and explore movies. The application integrates with The Movie Database (TMDB) API to provide real-time movie information.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 🎬 Browse popular movies
+- 🔍 Search functionality to find specific movies
+- ❤️ Add movies to favorites
+- 📱 Responsive design for all devices
+- 🎨 Modern and clean user interface
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React 19
+- Vite 6
+- React Router for navigation
+- Context API for state management
+- TMDB API for movie data
+- Modern CSS styling
+
+## Project Structure
+
+- Clean component architecture
+- Separate pages for Home and Favorites
+- Reusable components
+- Context-based state management
+- Environment variable configuration for API keys
+
+## Getting Started
+
+1. Clone the repository
+```bash
+git clone https://github.com/soumyabhambani/movie-discovery-website.git
+```
+
+2. Install dependencies
+```bash
+npm install
+```
+
+3. Create a `.env` file in the root directory with your TMDB API key:
+```
+VITE_MOVIE_API_KEY=your_tmdb_api_key
+```
+
+4. Run the development server
+```bash
+npm run dev
+```
+
+## Deployment
+
+This project is deployed on Netlify. To deploy your own version:
+
+1. Fork this repository
+2. Create a new site on Netlify
+3. Connect your GitHub repository
+4. Add your environment variables in Netlify's dashboard
+5. Deploy!
+
+## Environment Variables
+
+The following environment variables are required:
+
+- `VITE_MOVIE_API_KEY`: Your TMDB API key
+
+## Contributing
+
+Feel free to submit issues and enhancement requests!
+
+## License
+
+This project is open source and available under the MIT License.
